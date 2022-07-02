@@ -1,90 +1,88 @@
-
 /* universal container for each Section */
 .container {
-    margin-left: calc(50% - 50vw);
-    background-color: #1f2937;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #ffffff;
-    padding: 10px;
+	margin-left: calc(50% - 50vw);
+	background-color: #1f2937;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #ffffff;
+	padding: 10px;
 }
 /* Colors to use throughout project */
 
-
 .white {
-    background-color: #ffffff;
-    color: rgba(0, 0, 0, 0.925);
+	background-color: #ffffff;
+	color: rgba(0, 0, 0, 0.925);
 }
 
 .gray {
-    background-color: #e5e7eb;
-    color: rgba(0, 0, 0, 0.925);
+	background-color: #e5e7eb;
+	color: rgba(0, 0, 0, 0.925);
 }
 
 .blue {
-    background-color: #3b82f6;
-    color: #ffffff;
+	background-color: #3b82f6;
+	color: #ffffff;
 }
 
 .button {
-    width: 100px;
-    height: 25px;
-    border-radius: 5px;
+	width: 100px;
+	height: 25px;
+	border-radius: 5px;
 }
 /* Navbar Navigation stylings */
 /* Section 1 */
 #navbar {
-    margin-left: calc(50% - 50vw);
-    width: 100vw;
-    display: flex;
-    height: 50px;
-    justify-content: space-around;
+	margin-left: calc(50% - 50vw);
+	width: 100vw;
+	display: flex;
+	height: 50px;
+	justify-content: space-around;
 }
 #navbar .nav-container {
-    display: flex;
-    width: 60%;
-    max-width: 500px;
-    justify-content: space-between;
+	display: flex;
+	width: 60%;
+	max-width: 500px;
+	justify-content: space-between;
 }
 
 #navbar .nav-container a {
-    text-decoration: none;
-    color: #ffffff;
+	text-decoration: none;
+	color: #ffffff;
 }
 
 .header-box {
-    display: flex;
-    flex-direction: row;
-    padding: 50px 100px;
-    justify-content: space-around;
+	display: flex;
+	flex-direction: row;
+	padding: 50px 100px;
+	justify-content: space-around;
 }
 
 .header-box .navbar-left {
-    height: 200px;
-    width: 350px;
+	height: 200px;
+	width: 350px;
 }
 .header-box .navbar-left h1 {
-    font-size: 40px;
-    margin: 0;
+	font-size: 40px;
+	margin: 0;
 }
 .header-box .navbar-left p {
-    margin: 0;
+	margin: 0;
 }
 
 .header-box .navbar-left button {
-    border: none;
-    margin-top: 8px;
+	border: none;
+	margin-top: 8px;
 }
 
 .header-box .placeholder {
-    height: 200px;
-    width: 400px;
-    background-color: #6d747d;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	height: 200px;
+	width: 400px;
+	background-color: #6d747d;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 /* end of Section 1 */
@@ -92,90 +90,84 @@
 /* Section 2 */
 
 .box-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 
 .box-container .real-box {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    max-width: fit-content;
-    max-height: fit-content;
-    margin: 0 15px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	max-width: fit-content;
+	max-height: fit-content;
+	margin: 0 15px;
 }
 .real-box p {
-    max-width: 110px;
-    margin: 3px;
-    font-size: 13px;
-    text-align: center;
+	max-width: 110px;
+	margin: 3px;
+	font-size: 13px;
+	text-align: center;
 }
 
 .real-box .box {
-    width: 110px;
-    height: 110px;
-    border: 3px solid #3b82f6;
-    border-radius: 10px;
+	width: 110px;
+	height: 110px;
+	border: 3px solid #3b82f6;
+	border-radius: 10px;
 }
 
 /* end of Section 2 */
 /* Section 3 */
 
 section .quote {
-    margin-top: 60px;
-    width: 580px;
+	margin-top: 60px;
+	width: 580px;
 }
 
 section .quote p {
-    font-size: 28px;
-    margin: 0;
+	font-size: 28px;
+	margin: 0;
 }
 section #thor {
-    width: 580px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    margin-bottom: 60px;
+	width: 580px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+	margin-bottom: 60px;
 }
 section #thor h3 {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 /* end of Section 3 */
 /* Section 4 */
 
 section .action {
-    width: 750px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding: 16px;
-    margin: 50px;
-    border-radius: 10px;
-
+	width: 750px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding: 16px;
+	margin: 50px;
+	border-radius: 10px;
 }
 
 .action .call h2 {
-font-size: 16px;
-margin-bottom: 0;
-
+	font-size: 16px;
+	margin-bottom: 0;
 }
 
 .action .call p {
-    margin-top: 0;
-    opacity: 0.8;
+	margin-top: 0;
+	opacity: 0.8;
 }
 
 .action .button {
-    border: 1px solid white;
+	border: 1px solid white;
 }
 
 /* end of Section 4*/
 /* Footer */
-
-body footer {
-    
-}
