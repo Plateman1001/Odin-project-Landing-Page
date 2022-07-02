@@ -27,6 +27,12 @@
     background-color: #3b82f6;
     color: #ffffff;
 }
+
+.button {
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+}
 /* Navbar Navigation stylings */
 /* Section 1 */
 #navbar {
@@ -68,10 +74,7 @@
 }
 
 .header-box .navbar-left button {
-    width: 100px;
-    height: 25px;
     border: none;
-    border-radius: 7px;
     margin-top: 8px;
 }
 
@@ -142,3 +145,37 @@ section #thor h3 {
 
 /* end of Section 3 */
 /* Section 4 */
+
+section .action {
+    width: 750px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px;
+    margin: 50px;
+    border-radius: 10px;
+
+}
+
+.action .call h2 {
+font-size: 16px;
+margin-bottom: 0;
+
+}
+
+.action .call p {
+    margin-top: 0;
+    opacity: 0.8;
+}
+
+.action .button {
+    border: 1px solid white;
+}
+
+/* end of Section 4*/
+/* Footer */
+
+body footer {
+    
+}
