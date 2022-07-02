@@ -1,3 +1,5 @@
+
+/* universal container for each Section */
 .container {
     margin-left: calc(50% - 50vw);
     background-color: #1f2937;
@@ -26,7 +28,7 @@
     color: #ffffff;
 }
 /* Navbar Navigation stylings */
-/* Section 1*/
+/* Section 1 */
 #navbar {
     margin-left: calc(50% - 50vw);
     width: 100vw;
@@ -82,9 +84,9 @@
     align-items: center;
 }
 
-/* end of Section 1*/
-/* First body Section outside of nav*/
-/* Section 2*/
+/* end of Section 1 */
+/* First body Section outside of nav */
+/* Section 2 */
 
 .box-container {
     display: flex;
@@ -114,4 +116,29 @@
     border-radius: 10px;
 }
 
-/* end of Section 2*/
+/* end of Section 2 */
+/* Section 3 */
+
+section .quote {
+    margin-top: 60px;
+    width: 580px;
+}
+
+section .quote p {
+    font-size: 28px;
+    margin: 0;
+}
+section #thor {
+    width: 580px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-bottom: 60px;
+}
+section #thor h3 {
+    margin: 0;
+    padding: 0;
+}
+
+/* end of Section 3 */
+/* Section 4 */
